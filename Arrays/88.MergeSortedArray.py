@@ -25,7 +25,5 @@ def merge(nums1, nums2, m, n):
 
         correct_index -= 1
 
-    return nums1
-
     
-print(merge(nums1, nums2, m, n))
+merge(nums1, nums2, m, n)
