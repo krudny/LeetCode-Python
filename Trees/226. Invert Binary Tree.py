@@ -9,8 +9,6 @@ def invertTree(root):
     if not root: 
         return
     
-    print(root.val)
-    
     root.left, root.right = root.right, root.left
 
     invertTree(root.left)
