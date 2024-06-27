@@ -9,7 +9,6 @@ nums2 = [2,4,6]
 
 def findDifference(nums1, nums2):
     nums1, nums2 = set(nums1), set(nums2)
-
     
     return [list(nums1.difference(nums2)), list(nums2.difference(nums1))]
 
