@@ -25,7 +25,6 @@ def rangeSumBST(root, low, high):
 
 
     dfs(root)
-
     return result
 
 print(rangeSumBST(root, low, high))
